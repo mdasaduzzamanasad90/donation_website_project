@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation</title>
+    <!-- daisy ui and tailwind css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="fixed w-full left-0 right-0 top-0">
+        <div class="flex justify-around bg-[#F9F7F3] p-10">
+          <div>
+            <button class="btn px-8 bg-[#B4F461] font-bold text-xl">
+              Blog
+            </button>
+          </div>
+          <div class="flex items-center gap-5">
+            <img src="images/logo.png" alt="" />
+            <h1 class="text-xl font-bold">Donate Bangladesh</h1>
+          </div>
+          <div class="flex items-center gap-3">
+            <img src="images/coin.png" alt="" />
+            <div class="flex text-xl font-semibold gap-2">
+              <h1 id="main-balance">5500</h1>
+              <h1>BDT</h1>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mx-40 mb-20 mt-52">
+        <!-- button like donation and history -->
+      <section id="alreatdonationandhistory" class="mb-20">
+        <div class="flex gap-10 justify-center">
+          <button id="donation" class="btn font-bold text-xl bg-[#B4F461]">Donation</button>
+          <button id="history" class="btn font-bold text-xl">History</button>
+        </div>
+      </section>
+      <!-- donation form -->
+      <section id="donationfrom" class="space-y-10">
+        <!-- item-1 -->
+        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+          <img src="images/noakhali.png" alt="" />
+          <div class="space-y-5 py-5">
+            <div
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+            >
+              <img src="images/coin.png" alt="" />
+              <div class="flex gap-3">
+                <h1 id="itembalance1" class="font-semibold text-xl">0</h1>
+                <h1 class="font-semibold text-xl">BDT</h1>
+              </div>
+            </div>
+            <h1 class="font-bold text-xl">
+              Donate for Flood at Noakhali, Bangladesh
+            </h1>
+            <p class="text-left text-[#000000B3] text-base">
+              The recent floods in Noakhali have caused significant damage to
+              homes infrastructure. Your donation will help provide essential
+              supplies and to those affected by this disaster. Every
+              contribution, big or small, makes difference. Please join us in
+              supporting the relief efforts and making a positive impact on the
+              lives of those in need.
+            </p>
+            <div
+              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+            >
+              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+                <input
+                  class="w-full ml-3 px-2 rounded-md"
+                  type="text"
+                  name=""
+                  id="inputfield1"
+                  placeholder="Amount"
+                />
+                <p class="mr-5 font-bold">BDT</p>
+              </div>
+              <button id="donatebutton1" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
+                Donate Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- item-2 -->
+        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+          <img src="images/feni.png" alt="" />
+          <div class="space-y-5 py-5">
+            <div
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+            >
+              <img src="images/coin.png" alt="" />
+              <div class="flex gap-3">
+                <h1 id="itembalance2" class="font-semibold text-xl">0</h1>
+                <h1 class="font-semibold text-xl">BDT</h1>
+              </div>
+            </div>
+            <h1 class="font-bold text-xl">
+              Donate for Flood Relief in Feni,Bangladesh
+            </h1>
+            <p class="text-left text-[#000000B3] text-base">
+              The recent floods in Feni have devastated local communities,
+              leading to severe disruption and loss. Your generous donation will
+              help provide immediate aid, including food, clean water, and
+              medical supplies, to those affected by this calamity. Together, we
+              can offer crucial support and help rebuild lives in the aftermath
+              of this disaster. Every contribution counts towards making a real
+              difference. Please consider donating today to assist those in
+              urgent need.
+            </p>
+            <div
+              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+            >
+              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+                <input
+                  class="w-full ml-3 px-2 rounded-md"
+                  type="text"
+                  name=""
+                  id="inputfield2"
+                  placeholder="Amount"
+                />
+                <p class="mr-5 font-bold">BDT</p>
+              </div>
+              <button id="donatebutton2" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
+                Donate Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- item-3 -->
+        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+          <img src="images/quota-protest.png" alt="" />
+          <div class="space-y-5 py-5">
+            <div
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+            >
+              <img src="images/coin.png" alt="" />
+              <div class="flex gap-3">
+                <h1 id="itembalance3" class="font-semibold text-xl">0</h1>
+                <h1 class="font-semibold text-xl">BDT</h1>
+              </div>
+            </div>
+            <h1 class="font-bold text-xl">
+                Aid for Injured in the Quota Movement
+            </h1>
+            <p class="text-left text-[#000000B3] text-base">
+                The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
+            </p>
+            <div
+              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+            >
+              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+                <input
+                  class="w-full ml-3 px-2 rounded-md"
+                  type="text"
+                  name=""
+                  id="inputfield3"
+                  placeholder="Amount"
+                />
+                <p class="mr-5 font-bold">BDT</p>
+              </div>
+              <button id="donatebutton3" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
+                Donate Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- history form -->
+       <section id="historyfrom" class="hidden">
+        <div id="historyfield" class="space-y-5">
+
+        </div>
+       </section>
+       <!-- alreat -->
+        <section id="alreat" class="hidden">
+          <div class="flex justify-center">
+            <div class="border text-center space-y-5 w-fit px-20 py-5 rounded-3xl bg-white">
+              <h1 class="font-bold text-5xl">Congrates!</h1>
+              <div class="flex justify-center">
+                <img src="images/coin.png" alt="">
+              </div>
+              <p class="font-medium text-lg text-[#00000066]">You Have Donated For Human Kind</p>
+              <h1 class="font-bold text-3xl text-[#B4F461]">Successfully</h1>
+              <button id="alreatbutton" class="btn w-full font-bold text-xl bg-[#B4F461] text-white">Close Condfirmation</button>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer class="pt-20 bg-[#F9F7F3]"></footer>
+    <script src="js/utilities.js"></script>
+    <script src="js/call.js"></script>
+  </body>
+</html>
