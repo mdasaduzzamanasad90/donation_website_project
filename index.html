@@ -15,19 +15,22 @@
   <body>
     <header>
       <nav class="fixed w-full left-0 right-0 top-0">
-        <div class="flex justify-around bg-[#F9F7F3] p-10">
+        <div class="flex justify-between bg-[#F9F7F3] py-6 px-3 lg:py-10 lg:px-20">
           <div>
-            <button class="btn px-8 bg-[#B4F461] font-bold text-xl">
+            <button class="btn px-4 lg:px-8 bg-[#B4F461] font-bold text-xs lg:text-xl">
               Blog
             </button>
           </div>
-          <div class="flex items-center gap-5">
+          <div class="flex items-center gap-2 lg:gap-5">
             <img src="images/logo.png" alt="" />
-            <h1 class="text-xl font-bold">Donate Bangladesh</h1>
+            <div class="flex lg:flex-row flex-col lg:gap-3 text-center">
+              <h1 class="text-base lg:text-xl font-bold">Donate</h1>
+              <h1 class="text-base lg:text-xl font-bold">Bangladesh</h1>
+            </div>
           </div>
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-2 lg:gap-3">
             <img src="images/coin.png" alt="" />
-            <div class="flex text-xl font-semibold gap-2">
+            <div class="flex text-sm lg:text-xl font-semibold gap-2">
               <h1 id="main-balance">5500</h1>
               <h1>BDT</h1>
             </div>
@@ -35,33 +38,33 @@
         </div>
       </nav>
     </header>
-    <main class="mx-40 mb-20 mt-52">
+    <main class="mx-10 lg:mx-40 mb-11 lg:mb-20 mt-32 lg:mt-52">
         <!-- button like donation and history -->
-      <section id="alreatdonationandhistory" class="mb-20">
+      <section id="alreatdonationandhistory" class=" mb-10 lg:mb-20">
         <div class="flex gap-10 justify-center">
-          <button id="donation" class="btn font-bold text-xl bg-[#B4F461]">Donation</button>
-          <button id="history" class="btn font-bold text-xl">History</button>
+          <button id="donation" class="btn font-bold text-sm lg:text-xl bg-[#B4F461]">Donation</button>
+          <button id="history" class="btn font-bold text-sm lg:text-xl">History</button>
         </div>
       </section>
       <!-- donation form -->
-      <section id="donationfrom" class="space-y-10">
+      <section id="donationfrom" class="space-y-5 lg:space-y-10">
         <!-- item-1 -->
-        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+        <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 border-[#1111111A] border rounded-2xl p-3 lg:p-5">
           <img src="images/noakhali.png" alt="" />
-          <div class="space-y-5 py-5">
+          <div class="space-y-5 py-3 lg:py-5">
             <div
-              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border items-center"
             >
               <img src="images/coin.png" alt="" />
               <div class="flex gap-3">
-                <h1 id="itembalance1" class="font-semibold text-xl">0</h1>
-                <h1 class="font-semibold text-xl">BDT</h1>
+                <h1 id="itembalance1" class="font-semibold text-sm lg:text-xl">0</h1>
+                <h1 class="font-semibold text-sm lg:text-xl">BDT</h1>
               </div>
             </div>
-            <h1 class="font-bold text-xl">
+            <h1 class="font-bold text-base lg:text-xl">
               Donate for Flood at Noakhali, Bangladesh
             </h1>
-            <p class="text-left text-[#000000B3] text-base">
+            <p class="text-left text-[#000000B3] text-sm lg:text-base">
               The recent floods in Noakhali have caused significant damage to
               homes infrastructure. Your donation will help provide essential
               supplies and to those affected by this disaster. Every
@@ -70,41 +73,43 @@
               lives of those in need.
             </p>
             <div
-              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+              class="flex lg:flex-row flex-col lg:gap-5 bg-slate-100 lg:justify-between rounded-xl border"
             >
-              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+              <div class="flex items-center m-2 rounded-lg bg-white gap-3 lg:gap-5">
                 <input
-                  class="w-full ml-3 px-2 rounded-md"
+                  class="w-full ml-1 lg:ml-3 px-2 rounded-md"
                   type="text"
                   name=""
                   id="inputfield1"
                   placeholder="Amount"
                 />
-                <p class="mr-5 font-bold">BDT</p>
+                <p class=" mr-3 lg:mr-5 font-bold">BDT</p>
               </div>
-              <button id="donatebutton1" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
-                Donate Now
-              </button>
+              <div class="flex justify-center mx-2 lg:mx-0">
+                <button id="donatebutton1" class="btn m-2 bg-[#B4F461] w-full lg:w-52 font-bold text-sm lg:text-xl">
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <!-- item-2 -->
-        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+        <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 border-[#1111111A] border rounded-2xl p-3 lg:p-5">
           <img src="images/feni.png" alt="" />
-          <div class="space-y-5 py-5">
+          <div class="space-y-5 py-3 lg:py-5">
             <div
-              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border items-center"
             >
               <img src="images/coin.png" alt="" />
               <div class="flex gap-3">
-                <h1 id="itembalance2" class="font-semibold text-xl">0</h1>
-                <h1 class="font-semibold text-xl">BDT</h1>
+                <h1 id="itembalance2" class="font-semibold text-sm lg:text-xl">0</h1>
+                <h1 class="font-semibold text-sm lg:text-xl">BDT</h1>
               </div>
             </div>
-            <h1 class="font-bold text-xl">
+            <h1 class="font-bold text-base lg:text-xl">
               Donate for Flood Relief in Feni,Bangladesh
             </h1>
-            <p class="text-left text-[#000000B3] text-base">
+            <p class="text-left text-[#000000B3] text-sm lg:text-base">
               The recent floods in Feni have devastated local communities,
               leading to severe disruption and loss. Your generous donation will
               help provide immediate aid, including food, clean water, and
@@ -115,80 +120,84 @@
               urgent need.
             </p>
             <div
-              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+              class="flex lg:flex-row flex-col lg:gap-5 bg-slate-100 justify-between rounded-xl border"
             >
-              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+              <div class="flex items-center m-2 rounded-lg bg-white gap-3 lg:gap-5">
                 <input
-                  class="w-full ml-3 px-2 rounded-md"
+                  class="w-full ml-1 lg:ml-3 px-2 rounded-md"
                   type="text"
                   name=""
                   id="inputfield2"
                   placeholder="Amount"
                 />
-                <p class="mr-5 font-bold">BDT</p>
+                <p class="mr-3 lg:mr-5 font-bold">BDT</p>
               </div>
-              <button id="donatebutton2" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
-                Donate Now
-              </button>
+              <div class="flex justify-center mx-2 lg:mx-0 ">
+                <button id="donatebutton2" class="btn m-2 bg-[#B4F461] w-full lg:w-52 font-bold text-sm lg:text-xl">
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <!-- item-3 -->
-        <div class="flex gap-10 border-[#1111111A] border rounded-2xl p-5">
+        <div class="flex lg:flex-row flex-col gap-5 lg:gap-10 border-[#1111111A] border rounded-2xl p-3 lg:p-5">
           <img src="images/quota-protest.png" alt="" />
-          <div class="space-y-5 py-5">
+          <div class="space-y-5 py-3 lg:py-5">
             <div
-              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border"
+              class="flex gap-3 bg-[#0000000D] w-fit px-5 py-3 rounded-xl border items-center"
             >
               <img src="images/coin.png" alt="" />
               <div class="flex gap-3">
-                <h1 id="itembalance3" class="font-semibold text-xl">0</h1>
-                <h1 class="font-semibold text-xl">BDT</h1>
+                <h1 id="itembalance3" class="font-semibold text-sm lg:text-xl">0</h1>
+                <h1 class="font-semibold text-sm lg:text-xl">BDT</h1>
               </div>
             </div>
-            <h1 class="font-bold text-xl">
+            <h1 class="font-bold text-base lg:text-xl">
                 Aid for Injured in the Quota Movement
             </h1>
-            <p class="text-left text-[#000000B3] text-base">
+            <p class="text-left text-[#000000B3] text-sm lg:text-base">
                 The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
             </p>
             <div
-              class="flex gap-5 bg-slate-100 justify-between rounded-xl border"
+              class="flex lg:flex-row flex-col lg:gap-5 bg-slate-100 justify-between rounded-xl border"
             >
-              <div class="flex items-center m-2 rounded-lg bg-white gap-5">
+              <div class="flex items-center m-2 rounded-lg bg-white gap-3 lg:gap-5">
                 <input
-                  class="w-full ml-3 px-2 rounded-md"
+                  class="w-full ml-1 lg:ml-3 px-2 rounded-md"
                   type="text"
                   name=""
                   id="inputfield3"
                   placeholder="Amount"
                 />
-                <p class="mr-5 font-bold">BDT</p>
+                <p class="mr-3 lg:mr-5 font-bold">BDT</p>
               </div>
-              <button id="donatebutton3" class="btn m-2 bg-[#B4F461] w-52 font-bold text-xl">
-                Donate Now
-              </button>
+              <div class="flex justify-center mx-2 lg:mx-0">
+                <button id="donatebutton3" class="btn m-2 bg-[#B4F461] w-full lg:w-52 font-bold text-sm lg:text-xl">
+                  Donate Now
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- history form -->
        <section id="historyfrom" class="hidden">
-        <div id="historyfield" class="space-y-5">
+        <div id="historyfield" class="space-y-3 lg:space-y-5">
 
         </div>
        </section>
        <!-- alreat -->
         <section id="alreat" class="hidden">
           <div class="flex justify-center">
-            <div class="border text-center space-y-5 w-fit px-20 py-5 rounded-3xl bg-white">
-              <h1 class="font-bold text-5xl">Congrates!</h1>
+            <div class="border text-center space-y-5 w-fit px-16 lg:px-20 py-5 rounded-3xl bg-white">
+              <h1 class="font-bold text-3xl lg:text-5xl">Congrates!</h1>
               <div class="flex justify-center">
                 <img src="images/coin.png" alt="">
               </div>
-              <p class="font-medium text-lg text-[#00000066]">You Have Donated For Human Kind</p>
-              <h1 class="font-bold text-3xl text-[#B4F461]">Successfully</h1>
-              <button id="alreatbutton" class="btn w-full font-bold text-xl bg-[#B4F461] text-white">Close Condfirmation</button>
+              <p class="font-medium text-sm lg:text-lg text-[#00000066]">You Have Donated For Human Kind</p>
+              <h1 class="font-bold text-xl lg:text-3xl text-[#B4F461]">Successfully</h1>
+              <button id="alreatbutton" class="btn w-full font-bold text-sm lg:text-xl bg-[#B4F461] text-white">Close Condfirmation</button>
             </div>
           </div>
         </section>

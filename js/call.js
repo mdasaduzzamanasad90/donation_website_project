@@ -53,7 +53,7 @@ document.getElementById("donatebutton1").addEventListener("click", function () {
       // div tag
       const div = document.createElement("div");
       div.style.border = "1px,solid,rgb(192,192,192)";
-      div.style.padding = "30px";
+      div.style.padding = "10px";
       div.style.borderRadius = "12px";
 
       // append tag
@@ -118,7 +118,7 @@ document.getElementById("donatebutton2").addEventListener("click", function () {
       // div tag
       const div = document.createElement("div");
       div.style.border = "1px,solid,rgb(192,192,192)";
-      div.style.padding = "30px";
+      div.style.padding = "10px";
       div.style.borderRadius = "12px";
 
       // append tag
@@ -184,7 +184,7 @@ document.getElementById("donatebutton3").addEventListener("click", function () {
       // div tag
       const div = document.createElement("div");
       div.style.border = "1px,solid,rgb(192,192,192)";
-      div.style.padding = "30px";
+      div.style.padding = "10px";
       div.style.borderRadius = "12px";
 
       // append tag
